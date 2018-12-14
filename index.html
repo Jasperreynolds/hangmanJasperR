@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src = "script.js"></script>
+</head>
+<body>
+
+<h1 id="game">Hangman</h1>
+<h2 id="instructions">Select a Category to Begin Game</h2>
+<div id="catContainer">
+    <select id="gameCategory">
+        <option value="1">Rugby Players</option>
+        <option value="2">Types of Trees</option>
+        <option value="3">Music Terminology</option>
+        <option value="4">Palindromic Words</option>
+        <option value="5">Types of Concrete</option>
+    </select>
+    <button type="button" class="btn btn-light" id="gameStart" onclick="startGame(), printWord()">Start</button>
+</div>
+<br>
+<div id="winLoseContainer">
+    <span class="badge badge-light" id="wonGames"></span>
+    <span class="badge badge-light" id="lostGames"></span>
+</div>
+<br>
+<div id="alphabetButtons"></div>
+<br>
+<div id="wordDisplay"></div>
+<br>
+<div id="guessContainer">
+    <span class="badge badge-light" id="yourGuesses"></span>
+    <span class="badge badge-light" id="livesRemaining"></span>
+</div>
+<div id="winOrLose"></div>
+<br>
+<div id="hangmanImage"></div>
+
+
+
+</body>
+</html>

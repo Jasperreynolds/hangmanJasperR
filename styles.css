@@ -1,0 +1,81 @@
+body{
+    font-family: Baskerville;
+    color: black;
+    background-color: #d74b30;
+}
+#game{
+    text-align: center;
+}
+#catContainer{
+    position: relative;
+    text-align: center;
+}
+#wordDisplay{
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+}
+#alphabetButtons{
+    position: relative;
+    text-align: center;
+}
+#guessContainer{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+#livesContainer{
+    position: relative;
+    text-align: center;
+}
+#winOrLose{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+#winLoseContainer{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+#instructions{
+    position: relative;
+    text-align: center;
+}
+#hangmanImage{
+    position: relative;
+    text-align: center;
+}
+.letterBtn{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.letterBtnDisabled {
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+#gameStart{
+    border: 2px solid #000000;
+}
+.badge-light{
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+}
+#gameCategory{
+    border: 2px solid #000000;
+    height: 30px;
+    margin: 10px;
+}
